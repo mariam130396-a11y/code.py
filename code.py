@@ -1,4 +1,5 @@
 import os
+import smtplib
 from dotenv import load_dotenv
 
 from dotenv import load_dotenv
@@ -11,8 +12,6 @@ load_dotenv(env_path)
 login = os.getenv("LOGIN")
 password = os.getenv("PASSWORD")
 
-
-import smtplib
 
 
 from_email = "devmanorg@yandex.ru"
